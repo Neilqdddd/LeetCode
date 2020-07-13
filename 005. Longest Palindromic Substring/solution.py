@@ -106,8 +106,71 @@ Memory Usage: 12.7 MB, less than 75.65% of Python online submissions for Longest
 '''
 
 '''
-Manacher's Algorithm still working on that
+Manacher's Algorithm
 '''
+
+
+class Solution(object):
+    def longestPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: str
+        思想为找到中心点，然后确定中心点的对称半径。
+        如果新的潜在对称点超过以知的点，比较超过已知半径点。
+        重新分配中心点，循环
+        reference：https://www.youtube.com/watch?v=nbTSfrEfo6M
+        """
+
+        t = '#'.join('${}@'.format(s))
+        print(t)
+        l = len(t)
+        # 储存对称半径的list
+        p = [0 for i in range(l)]
+
+        # c 为回文字符的中心点
+        # r 为右边界
+        c = r = 0
+
+        for i in range(1, l - 1):
+            '''
+            i 在对称的右边界中的话，已经判定为对称
+            直接赋值对左对称点的对称半径
+            $#a#b#c#b#a#@
+            右边的b即可赋值左边b的对称半径3
+            '''
+
+            if r >= i:
+                p[i] = min(r - i, p[2 * c - i])
+            '''
+            扩张，假设这个点为一个新的中心点，
+            镜像的对称半径为, p[i] = p[2*c - i]
+            下一个扩张的点为 i + 已知的对称半径 + 1， T [i+p[i]+1]
+            潜在对称点为 i - 已知对称半径 -1 
+            潜在对称点为 T[i - p[i] -1] 
+            '''
+            while t[i + p[i] + 1] == t[i - p[i] - 1]:
+                p[i] += 1
+
+            '''
+            判断更新 中心点c 与 右边界r
+            如果 i + p[i] > r i+新对称半径超过原来的r
+            i 为新的中心点c ， i+p[i]为新的对称半径r
+            '''
+            if i + p[i] > r:
+                c, r = i, i + p[i]
+        '''
+        例如 p 得出[0, 0, 1, 0, 3, 0, 3, 0, 1, 0, 1, 0, 0]
+        找到最大值的点为中心， 与最大值点的位置的点为有效半径
+        （中心点-有效半径）//2 得出在原来s中的位置
+        '''
+        center, center_r = max(enumerate(p), key=lambda x: x[1])
+        return s[(center - center_r) // 2:(center + center_r) // 2]
+
+'''
+Runtime: 96 ms, faster than 96.70% of Python online submissions for Longest Palindromic Substring.
+Memory Usage: 12.9 MB, less than 33.94% of Python online submissions for Longest Palindromic Substring.
+'''
+
 
 if __name__ == '__main__':
     s = 'babad'
