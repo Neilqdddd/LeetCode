@@ -11,3 +11,4 @@ Former CPA的算法之路。
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](003.%20Longest%20Substring%20Without%20Repeating%20Characters/solution.py)|Medium|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Python](004.%20Median%20of%20Two%20Sorted%20Arrays/solution.py)|Hard|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [Python](005.%20Longest%20Palindromic%20Substring/solution.py)|Medium|
+|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [Python](006.%20ZigZag%20Conversion/solution.py)|Medium|
