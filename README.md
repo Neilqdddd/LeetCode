@@ -14,4 +14,4 @@ Former CPA的算法之路。
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [Python](006.%20ZigZag%20Conversion/solution.py)|Medium|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [Python](007.%20Reverse%20Integer/solution.py)|Easy|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| [Python](008.%20String%20to%20Integer%20(atoi)/solution.py)|Medium|
-|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [Python](009.%20Palindrome%20Number%/solution.py)|Easy|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [Python](009.%20Palindrome%20Number/solution.py)|Easy|
