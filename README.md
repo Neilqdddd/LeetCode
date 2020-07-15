@@ -1,8 +1,16 @@
 # LEETCODE 刷题笔记
 Former CPA的算法之路。
-现在leetcode有1500多道了，每天更新一点一直到找到工作吧。  
-
+现在leetcode有1500多道了，每天更新一点一直到找到工作吧。
+2020/7/14 做到第16题  
 2020/7/13 第五题： Longest Palindromic Substring 更新马拉车算法
+
+Unsolve list:
+ 
+|NO.|Title| 
+|---|-----|
+|4|Median of Two Sorted Arrays|
+|10|Regular Expression Matching |
+
 
 |NO.|Title|Solution|Difficulty|
 |---|-----|--------|----------|
@@ -17,3 +25,7 @@ Former CPA的算法之路。
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [Python](009.%20Palindrome%20Number/solution.py)|Easy|
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](011.%20Container%20With%20Most%20Water/solution.py)|Medium|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [Python](012.%20Integer%20to%20Roman/solution.py)|Medium|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [Python](013.%20Roman%20to%20Integer/solution.py)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](014.%20Longest%20Common%20Prefix/solution.py)|Easy|
+|15|[3Sum](https://leetcode.com/problems/3sum/)| [Python](015.%203Sum/solution.py)|Medium|
+|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Python](016.%203Sum Closest/solution.py)|Medium|
