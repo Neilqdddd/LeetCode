@@ -28,4 +28,4 @@ Unsolve list:
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [Python](013.%20Roman%20to%20Integer/solution.py)|Easy|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](014.%20Longest%20Common%20Prefix/solution.py)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/)| [Python](015.%203Sum/solution.py)|Medium|
-|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Python](016.%203Sum Closest/solution.py)|Medium|
+|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Python](016.%203Sum%20Closest/solution.py)|Medium|
