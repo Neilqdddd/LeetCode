@@ -6,10 +6,11 @@ Former CPA的算法之路。
 
 Unsolve list:
  
-|NO.|Title| 
-|---|-----|
-|4|Median of Two Sorted Arrays|
-|10|Regular Expression Matching |
+|NO.|Title|Note| 
+|---|-----|-----|
+|4|Median of Two Sorted Arrays||
+|10|Regular Expression Matching ||
+|19|Remove Nth Node From End of List | Not understand|
 
 
 |NO.|Title|Solution|Difficulty|
@@ -29,3 +30,21 @@ Unsolve list:
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](014.%20Longest%20Common%20Prefix/solution.py)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/)| [Python](015.%203Sum/solution.py)|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Python](016.%203Sum%20Closest/solution.py)|Medium|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](017.%20Letter%20Combinations%20of%20a%20Phone%20Number/solution.py)|Medium|
+|18|[4Sum](https://leetcode.com/problems/4sum/)| [Python](018.%204Sum/solution.py)|Medium|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](019.%20Remove%20Nth%20Node%20From%20End%20of%20List/solution.py)|Medium|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
