@@ -1,8 +1,10 @@
 # LEETCODE 刷题笔记
 Former CPA的算法之路。
 现在leetcode有1500多道了，每天更新一点一直到找到工作吧。
+
 2020/7/14 做到第16题  
-2020/7/13 第五题： Longest Palindromic Substring 更新马拉车算法
+2020/7/13 第五题： Longest Palindromic Substring 更新马拉车算法  
+
 
 Unsolve list:
  
