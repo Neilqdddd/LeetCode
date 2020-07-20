@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        max = 0
+        max_len = 0
         stack = []
         cur_len = 0
         for p in s:
@@ -14,11 +14,16 @@ class Solution(object):
             elif p == ')':
                 if stack:
                     cur_len += stack.pop() + 2
-                    max = max(max, cur_len)
+                    max_len = max(max_len, cur_len)
                 else:
                     cur_len = 0
-        return max
+        return max_len
 
+
+'''
+Runtime: 52 ms, faster than 37.43% of Python online submissions for Longest Valid Parentheses.
+Memory Usage: 13.1 MB, less than 76.92% of Python online submissions for Longest Valid Parentheses.
+'''
 
 if __name__ == '__main__':
     s = "(()"
