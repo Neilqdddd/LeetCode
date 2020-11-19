@@ -35,6 +35,7 @@ Unsolve list:
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](017.%20Letter%20Combinations%20of%20a%20Phone%20Number/solution.py)|Medium|
 |18|[4Sum](https://leetcode.com/problems/4sum/)| [Python](018.%204Sum/solution.py)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](019.%20Remove%20Nth%20Node%20From%20End%20of%20List/solution.py)|Medium|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Python](038.%20Count%20and%20Say/solution.py)|Easy|
 
 
 
