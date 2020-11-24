@@ -38,7 +38,9 @@ Unsolve list:
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Python](038.%20Count%20and%20Say/solution.py)|Easy|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Python](054.%20Spiral%20Matrix/solution.py)|Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Python](056.%20Merge%20Intervals/solution.py)|Medium|
-
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Python](058.%20Length%20of%20Last%20Word/solution.py)|Medium|
+|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Python](059.%20Spiral%20Matrix%20II/solution.py)|Medium|
+|66|[Plus One](https://leetcode.com/problems/plus-one/)|[Python](066.%20Plus%20One/solution.py)|Easy|
 
 
 
