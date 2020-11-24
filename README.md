@@ -41,6 +41,7 @@ Unsolve list:
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Python](058.%20Length%20of%20Last%20Word/solution.py)|Medium|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Python](059.%20Spiral%20Matrix%20II/solution.py)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Python](066.%20Plus%20One/solution.py)|Easy|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python](070.%20Climbing%20Stairs/solution.py)|Easy|
 
 
 
