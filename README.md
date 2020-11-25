@@ -42,7 +42,8 @@ Unsolve list:
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Python](059.%20Spiral%20Matrix%20II/solution.py)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Python](066.%20Plus%20One/solution.py)|Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python](070.%20Climbing%20Stairs/solution.py)|Easy|
-
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python](074.%20Search%20a%202D%20Matrix/solution.py)|Medium|
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Python](075.%20Sort%20Colors/solution.py)|Medium|
 
 
 
