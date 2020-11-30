@@ -6,7 +6,6 @@ class Solution(object):
         """
         output = [[]]
         for num in nums:
-            print(output)
             output += [cur + [num] for cur in output]
 
         return output
