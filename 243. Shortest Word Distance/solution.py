@@ -6,18 +6,19 @@ class Solution(object):
         :type word2: str
         :rtype: int
         """
-        lt_1 = []
-        lt_2 = []
-        ans = len(words)
-
+        ans = float('inf')
+        pos = [None, None]
         for index, value in enumerate(words):
-            if value == word1:
-                lt_1.append(index)
-            elif value == word2:
-                lt_2.append(index)
-            if lt_1 and lt_2:
-                ans = min(ans, abs(lt_1[-1] - lt_2[-1]))
+            if value not in [word1, word2]:
+                continue
+            pos[value == word2] = index
+            if None in pos:
+                continue
+            ans = min(ans, abs(pos[0] - pos[1]))
         return ans
+
+
+
 
 
 if __name__ == '__main__':
